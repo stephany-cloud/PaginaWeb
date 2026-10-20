@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Call of Duty| Plantilla Fan Character (FC)</title>
+
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+    <header>
+
+        <div class="logo">
+            Call of Duty Fanom
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Lore</a>
+            <a href="#servicios">Historial de cicatrices</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         SECCIÓN PRINCIPAL
+    ========================== -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-text">
+
+            <h1>BIENVENIDOS A ESTE RINCÓN DEL COSMOS</h1>
+
+            <p>
+                El día de hoy conocerán la historia y origen de uno de los nuevos integrantes de la Task Force 141 (COD)
+            </p>
+
+            <button onclick="mostrarMensaje()">
+                Conocer más
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         NOSOTROS
+    ========================== -->
+    <section id="nosotros" class="section">
+
+        <h2>SLOGAN</h2>
+
+        <p class="texto-centro">
+            I am not a man, I am not a woman. I am a weapon and weapons don't have a gender
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         Bases
+    ========================== -->
+    <section id="servicios" class="section fondo">
+
+        <h2>Bases</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Armas</h3>
+                <p>
+                    De sus armas favoritas a las que menos le gustan y razones
+                </p>
+
+                <button onclick="mostrarServicio('Servicio 01')">
+                    Ver más
+                </button>
+            </div>
+
+
+            <div class="card">
+                <h3>Equipamiento táctico</h3>
+                <p>
+                    Uniformes y distintivos
+                </p>
+
+                <button onclick="mostrarServicio('Servicio 02')">
+                    Ver más
+                </button>
+            </div>
+
+
+            <div class="card">
+                <h3>Habilidades</h3>
+                <p>
+                    Ficha de habilidades y distintivos 
+                </p>
+
+                <button onclick="mostrarServicio('Servicio 03')">
+                    Ver más
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         GALERÍA
+    ========================== -->
+    <section id="galeria" class="section">
+
+        <h2>Galería</h2>
+
+        <div class="galeria">
+
+            <img
+                src="a.jpeg"
+                alt="Imagen 1"
+                onclick="ampliarImagen(this)"
+            >
+
+            <img
+                src="b.jpeg"
+                alt="Imagen 2"
+                onclick="ampliarImagen(this)"
+            >
+
+            <img
+                src="c.jpeg"
+                alt="Imagen 3"
+                onclick="ampliarImagen(this)"
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+    <footer>
+
+        <p>
+            © 2026 Lorem Ipsum - Plantilla educativa
+        </p>
+
+        <p>
+            Página creada con HTML, CSS y JavaScript
+        </p>
+
+    </footer>
+
+
+    <!-- Conexión con JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
