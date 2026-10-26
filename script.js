@@ -19,10 +19,10 @@ function mostrarServicio(tipo) {
     pantalla.style.display = 'block';
 
     if (tipo === 'habilidades') {
-        titulo.innerText = "Ficha Técnica y Capacidades: Sam (Operadora SAS - 24 años)";
+        titulo.innerText = "Ficha Técnica y Capacidades: Sam "Vex" Tanaka (Operadora SAS - 24 años)";
         texto.innerHTML = `
             <p style="background-color: #242424; padding: 15px; border-left: 4px solid #007bff; border-radius: 4px; margin-bottom: 20px;">
-                <strong>Resumen:</strong> Sam es una operadora de infiltración competente, con habilidades sociales y de observación excepcionales, un umbral de dolor y resistencia a toxinas documentado, y competencia básica en armas de fuego y combate cuerpo a cuerpo. No es una superhumana. Es una soldado entrenada con atributos físicos y psicológicos fuera de lo común, pero dentro de lo humanamente posible. Su mayor ventaja no es la fuerza: es la adaptación, la observación y la capacidad de sobrevivir donde otros se quiebran.
+                <strong>Resumen:</strong> Vex es una operadora de infiltración competente, con habilidades sociales y de observación excepcionales, un umbral de dolor y resistencia a toxinas documentado, y competencia básica en armas de fuego y combate cuerpo a cuerpo. No es una superhumana. Es una soldado entrenada con atributos físicos y psicológicos fuera de lo común, pero dentro de lo humanamente posible. Su mayor ventaja no es la fuerza: es la adaptación, la observación y la capacidad de sobrevivir donde otros se quiebran.
             </p><br>
 
             <h4 style="color: #ffffff; margin-bottom: 5px;">1. Infiltración y Movimiento Táctico</h4>
