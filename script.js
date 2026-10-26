@@ -3,25 +3,22 @@
 ================================== */
 
 function mostrarMensaje() {
-
     alert("¡Bienvenido a esta página web!");
-
 }
 
 
 /* ==================================
-   FUNCIÓN: SERVICIOS
+   FUNCIÓN: SERVICIOS (Y DETALLE DE HABILIDADES)
 ================================== */
 
 function mostrarServicio(tipo) {
-   
-const pantalla = document.getElementById('pantalla-detalle');
+    const pantalla = document.getElementById('pantalla-detalle');
     const titulo = document.getElementById('titulo-detalle');
     const texto = document.getElementById('texto-detalle');
 
-   pantalla.style.display = 'block';
+    pantalla.style.display = 'block';
 
-   if (tipo === 'habilidades') {
+    if (tipo === 'habilidades') {
         titulo.innerText = "Ficha Técnica y Capacidades: Sam (Operadora SAS - 24 años)";
         texto.innerHTML = `
             <p style="background-color: #242424; padding: 15px; border-left: 4px solid #007bff; border-radius: 4px; margin-bottom: 20px;">
@@ -60,12 +57,8 @@ const pantalla = document.getElementById('pantalla-detalle');
         texto.innerHTML = "<p>Contenido en desarrollo.</p>";
     }
 
-
-   pantalla.scrollIntoView({ behavior: 'smooth' });
+    pantalla.scrollIntoView({ behavior: 'smooth' });
 }
-
-
-
 
 
 /* ==================================
@@ -73,22 +66,9 @@ const pantalla = document.getElementById('pantalla-detalle');
 ================================== */
 
 function ampliarImagen(imagen) {
-
-    if (
-        imagen.style.transform ===
-        "scale(1.5)"
-    ) {
-
-        imagen.style.transform =
-            "scale(1)";
-
+    if (imagen.style.transform === "scale(1.5)") {
+        imagen.style.transform = "scale(1)";
     } else {
-
-        imagen.style.transform =
-            "scale(1.5)";
-
+        imagen.style.transform = "scale(1.5)";
     }
-
 }
-
-
