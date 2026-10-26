@@ -101,13 +101,13 @@
             </div>
 
 
-            <div class="card">
+           <div class="card">
                 <h3>Habilidades</h3>
                 <p>
                     Ficha de habilidades y distintivos 
                 </p>
 
-                <button onclick="mostrarServicio('Servicio 03')">
+                <button onclick="mostrarServicio('habilidades')">
                     Ver más
                 </button>
             </div>
@@ -116,8 +116,11 @@
 
     </section>
 
-
-    <!-- =========================
+    <!-- Pantalla donde se mostrará la información detallada -->
+    <div id="pantalla-detalle" style="max-width: 800px; margin: 30px auto; padding: 25px; background-color: #1a1a1a; color: #ffffff; border-radius: 8px; border: 1px solid #333; text-align: left; display: none;">
+        <h3 id="titulo-detalle" style="color: #007bff; margin-bottom: 15px;"></h3>
+        <div id="texto-detalle" style="line-height: 1.6; font-size: 14px; color: #cccccc;"></div>
+    </div>    <!-- =========================
          GALERÍA
     ========================== -->
     <section id="galeria" class="section">
