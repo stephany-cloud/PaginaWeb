@@ -80,8 +80,6 @@ nav a:hover {
 
     padding: 40px;
 
-    /* PARA CAMBIAR EL FONDO: reemplaza la dirección de abajo
-       por el nombre de tu imagen, por ejemplo url("taskforce141.jpg") */
     background-image:
         linear-gradient(
             rgba(0, 0, 0, 0.6),
@@ -101,3 +99,33 @@ nav a:hover {
 
 .hero h1 {
     font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.section {
+    padding: 80px 8%;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.fondo {
+    background-color: #f2f2f2;
+}
+
+.texto-centro {
+    max-width: 800px;
+    margin: auto;
